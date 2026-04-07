@@ -3,7 +3,7 @@ import shutil
 
 def start_organizing():
     # 1. المسار المستهدف للترتيب
-    target_folder = r"C:\Users\ixss1\Downloads"
+    target_folder = input(r"أدخل المسار المجلد اللي تبي تنظفه:").strip('\"\'')
     
     # 2. خريطة الترتيب (القواعد)
     extensions_map = {
